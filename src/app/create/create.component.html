@@ -1,0 +1,47 @@
+<html>
+
+<head>
+   
+    <link rel="stylesheet" href='/src/app/create/create.component.css'>
+</head>
+
+<body>
+    <div class="body">
+        <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="card">
+                
+                <a href="app"><div class="close-button">X</div></a>
+                  
+                <div class="texts">
+                    <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                        alt="">
+                    <h2>Create Account</h2>
+                    <form action="createaccount" method="post">
+
+                        <label>Email</label><br>
+                        <input type="text" name="uemail" class="input" required
+                            placeholder="Email"><br>
+
+
+
+
+                        <label>Password</label><br>
+                        <input type="password" required class="input" placeholder="Password" name="upassword"><br>
+
+                        <label>Conform Password</label><br>
+                        <input type="password" required class="input" placeholder="Password" name="ucpassword"><br>
+                        <button class="next" type="submit">Next</button>
+
+
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<router-outlet></router-outlet>

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="/src/app/signin/signin.component.css">
+</head>
+
+<body>
+  <div class="body">
+    <div class="position-absolute top-50 start-50 translate-middle">
+      <div class="card">
+       
+          <a href="app"><div class="close-button">X</div></a>
+        
+        <div class="texts">
+          <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+            alt="">
+          <h2>Sign in</h2>
+          <form action="email" method="post">
+            <label>Email</label><br>
+            <input type="text" name="uemail" class="input" required placeholder="Email"><br>
+            <label>Password</label><br>
+            <input type="password" required class="input" placeholder="Password" name="upassword"><br>
+            <div class="ac">
+              <label class="no">No account?</label>
+              <a href="create" class="one" style="text-decoration: none;">Create one!</a>
+            </div>
+
+            <button class="next">Next</button>
+          </form>
+        </div>
+      </div>
+
+      <button id="in"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+          class="bi bi-key" viewBox="0 0 16 16">
+          <path
+            d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
+          <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+        </svg>Sign-in options</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
+<router-outlet></router-outlet>
